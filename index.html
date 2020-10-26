@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Simon</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Embedding -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 id="level-title">Press A Key to Start</h1>
+    <div class="invisble-box" style="display: none;">John Cena</div>
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green">
+          <div class="text green">1</div>
+        </div>
+        <div type="button" id="red" class="btn red">
+          <div class="text red">2</div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow">
+          <div class="text yellow">3</div>
+        </div>
+        <div type="button" id="blue" class="btn blue">
+          <div class="text blue">4</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

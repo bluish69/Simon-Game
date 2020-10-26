@@ -1,0 +1,107 @@
+body {
+  text-align: center;
+  background-color: #011f3f;
+}
+/* Mobile version css */
+
+
+
+#level-title {
+  font-family: "Press Start 2P", cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fef2bf;
+}
+
+.invisble-box{
+  color: #fef2bf;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8rem;
+  display: inline-block;
+  border-radius: 25%;
+  padding: 3px 8px;
+  position: absolute;
+  top: 8%;
+  left: 2%;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.text {
+  font-size: 5rem;
+  padding: 50px 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 20%;
+  color: #011f3f;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+/* Small Size */
+@media (max-width: 800px) {
+  #level-title {
+    margin: 15% 0 ;
+    font-size: 2rem;
+  }
+  .btn {
+    margin: 2px;
+    border: 4px solid black;
+    height: 60px;
+    width: 60px;
+    padding: 9%;
+  }
+  .text {
+    visibility: hidden;
+  }
+  .row{
+    display: inline;
+  }
+  .container{
+    padding-top: 15%;
+    display: inline;
+
+  }
+  .invisble-box{
+    top: 20%;
+  }
+}
+
